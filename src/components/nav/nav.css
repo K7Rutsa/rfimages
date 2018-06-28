@@ -1,0 +1,33 @@
+nav {
+    background-color: #7B1FA2;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    box-shadow: 11px 11px 20px -11px rgba(0,0,0,0.75);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav svg {
+    fill: #fff;
+}
+
+nav h2 {
+    padding-left: .5rem;
+}
+
+.newestBtn {
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+}
